@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英語にチャレンジ - 中学生向け4択クイズ</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>英語にチャレンジ</h1>
+            <p class="subtitle">中学生向け英語4択クイズ</p>
+        </header>
+
+        <div id="start-screen" class="screen active">
+            <h2>カテゴリーを選んでください</h2>
+            <div class="category-buttons">
+                <button class="category-btn" data-category="grammar">文法</button>
+                <button class="category-btn" data-category="vocabulary">単語</button>
+                <button class="category-btn" data-category="numbers">数字</button>
+            </div>
+        </div>
+
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress">
+                    <span id="current-question">1</span> / <span id="total-questions">5</span>
+                </div>
+                <div class="score">
+                    スコア: <span id="score">0</span>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <h2 id="question" class="question"></h2>
+                <div id="options" class="options"></div>
+                <div id="feedback" class="feedback"></div>
+                <button id="next-btn" class="next-btn" style="display: none;">次の問題</button>
+            </div>
+        </div>
+
+        <div id="result-screen" class="screen">
+            <h2>クイズ終了！</h2>
+            <div class="result-content">
+                <p class="final-score">最終スコア: <span id="final-score"></span> / <span id="final-total"></span></p>
+                <p class="result-message" id="result-message"></p>
+                <button id="restart-btn" class="restart-btn">もう一度挑戦する</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/quiz.js') }}"></script>
+</body>
+</html>
