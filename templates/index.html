@@ -10,7 +10,7 @@
     <div class="container">
         <header>
             <h1>英語にチャレンジ</h1>
-            <p class="subtitle">中学生向け英語4択クイズ</p>
+            <p class="subtitle">中学生だけど高校生レベルにも挑戦！</p>
         </header>
 
         <div id="start-screen" class="screen active">
@@ -31,7 +31,10 @@
                 <button class="level-btn" data-level="4">レベル 4</button>
                 <button class="level-btn" data-level="5">レベル 5</button>
             </div>
-            <button id="back-to-category" class="back-btn">カテゴリーに戻る</button>
+            <div class="level-nav-buttons">
+                <button id="back-to-category" class="back-btn">カテゴリーに戻る</button>
+                <button id="level-to-top" class="back-btn">トップに戻る</button>
+            </div>
         </div>
 
         <div id="quiz-screen" class="screen">
@@ -42,6 +45,7 @@
                 <div class="score">
                     スコア: <span id="score">0</span>
                 </div>
+                <button id="quiz-to-top" class="quiz-top-btn">トップに戻る</button>
             </div>
 
             <div class="quiz-content">

@@ -37,6 +37,14 @@ document.getElementById('back-to-category').addEventListener('click', () => {
     showScreen('start');
 });
 
+document.getElementById('level-to-top').addEventListener('click', () => {
+    resetQuiz();
+});
+
+document.getElementById('quiz-to-top').addEventListener('click', () => {
+    resetQuiz();
+});
+
 document.getElementById('restart-btn').addEventListener('click', () => {
     startQuiz();
 });

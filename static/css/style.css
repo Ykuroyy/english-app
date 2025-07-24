@@ -106,12 +106,50 @@ h2 {
     transform: translateY(-2px);
 }
 
+.level-nav-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.level-nav-buttons .back-btn {
+    margin: 0;
+    flex: 1;
+    max-width: 150px;
+}
+
+.quiz-top-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    background: #718096;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.quiz-top-btn:hover {
+    background: #4a5568;
+    transform: translateY(-1px);
+}
+
 .quiz-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 30px;
     padding-bottom: 20px;
     border-bottom: 2px solid #e2e8f0;
+}
+
+.quiz-header > div {
+    flex: 1;
+}
+
+.quiz-header .quiz-top-btn {
+    flex: 0 0 auto;
 }
 
 .progress, .score {
@@ -279,5 +317,24 @@ h2 {
     .result-buttons button {
         width: 100%;
         max-width: 250px;
+    }
+
+    .level-nav-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .level-nav-buttons .back-btn {
+        max-width: none;
+    }
+
+    .quiz-header {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .quiz-top-btn {
+        font-size: 0.8rem;
+        padding: 6px 12px;
     }
 }

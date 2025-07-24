@@ -40,48 +40,48 @@ quiz_data = {
         ],
         "2": [
             {
-                "question": "I have ___ studying English for two years.",
-                "options": ["been", "be", "being", "was"],
-                "answer": 0,
-                "explanation": "現在完了進行形では「have been + -ing」を使います。"
-            },
-            {
-                "question": "If it ___ tomorrow, we will stay home.",
-                "options": ["rain", "rains", "will rain", "rained"],
+                "question": "I ___ playing tennis for three hours.",
+                "options": ["am", "have been", "was", "will be"],
                 "answer": 1,
-                "explanation": "if文の条件節では現在形を使います。"
+                "explanation": "「〜時間ずっと」は現在完了進行形を使います。"
             },
             {
-                "question": "The book ___ by many people.",
-                "options": ["reads", "is read", "read", "reading"],
+                "question": "She is ___ than her sister.",
+                "options": ["tall", "taller", "tallest", "more tall"],
                 "answer": 1,
-                "explanation": "受動態では「be動詞 + 過去分詞」を使います。"
+                "explanation": "2つを比べる時は比較級を使います。"
             },
             {
-                "question": "I wish I ___ taller.",
-                "options": ["am", "was", "were", "be"],
+                "question": "This is the ___ book I have ever read.",
+                "options": ["interesting", "more interesting", "most interesting", "interestinger"],
                 "answer": 2,
-                "explanation": "仮定法では主語がIでもwereを使います。"
+                "explanation": "「今まで〜した中で一番」は最上級を使います。"
             },
             {
-                "question": "She made me ___ my room.",
-                "options": ["clean", "to clean", "cleaning", "cleaned"],
+                "question": "I want ___ a doctor when I grow up.",
+                "options": ["become", "to become", "becoming", "became"],
+                "answer": 1,
+                "explanation": "want + to不定詞の形を使います。"
+            },
+            {
+                "question": "If it ___ tomorrow, we will go to the park.",
+                "options": ["doesn't rain", "won't rain", "didn't rain", "isn't rain"],
                 "answer": 0,
-                "explanation": "make + 人 + 動詞の原形の形を使います。"
+                "explanation": "if文の条件節では現在形を使います。"
             }
         ],
         "3": [
             {
-                "question": "I would rather ___ at home than go out.",
-                "options": ["stay", "to stay", "staying", "stayed"],
-                "answer": 0,
-                "explanation": "would rather + 動詞の原形を使います。"
+                "question": "I have ___ finished my homework.",
+                "options": ["yet", "already", "still", "ever"],
+                "answer": 1,
+                "explanation": "「もう〜した」はalreadyを使います。"
             },
             {
-                "question": "The more you practice, ___ you become.",
-                "options": ["good", "better", "the better", "best"],
-                "answer": 2,
-                "explanation": "「the + 比較級, the + 比較級」の構文です。"
+                "question": "This book ___ by my teacher last year.",
+                "options": ["wrote", "was written", "is written", "has written"],
+                "answer": 1,
+                "explanation": "受動態の過去形は「was/were + 過去分詞」です。"
             },
             {
                 "question": "I'm looking forward to ___ you again.",
@@ -90,80 +90,80 @@ quiz_data = {
                 "explanation": "look forward toの後は動名詞（-ing形）が続きます。"
             },
             {
-                "question": "Had I known about it, I ___ you.",
-                "options": ["would help", "will help", "would have helped", "helped"],
-                "answer": 2,
-                "explanation": "仮定法過去完了では「would have + 過去分詞」を使います。"
+                "question": "She asked me ___ I liked the movie.",
+                "options": ["that", "if", "what", "why"],
+                "answer": 1,
+                "explanation": "「〜かどうか」を尋ねる間接疑問文ではifを使います。"
             },
             {
-                "question": "It is important that he ___ on time.",
-                "options": ["comes", "come", "came", "coming"],
+                "question": "I wish I ___ speak English better.",
+                "options": ["can", "could", "will", "would"],
                 "answer": 1,
-                "explanation": "重要性を表すthat節では動詞の原形を使います。"
+                "explanation": "I wish + 仮定法過去でcouldを使います。"
             }
         ],
         "4": [
             {
-                "question": "Scarcely had I arrived ___ it started raining.",
-                "options": ["when", "than", "as", "while"],
+                "question": "I have never seen such a beautiful sunset ___ in my life.",
+                "options": ["like", "as", "than", "so"],
+                "answer": 1,
+                "explanation": "such... asで「そのような〜」を表します。"
+            },
+            {
+                "question": "The more you study, ___ your English will become.",
+                "options": ["good", "better", "the better", "best"],
+                "answer": 2,
+                "explanation": "「the + 比較級, the + 比較級」で「〜すればするほど」を表します。"
+            },
+            {
+                "question": "I would rather ___ at home than go out in this rain.",
+                "options": ["stay", "to stay", "staying", "stayed"],
                 "answer": 0,
-                "explanation": "scarcely... whenは「...するやいなや」という意味です。"
+                "explanation": "would rather + 動詞の原形を使います。"
             },
             {
-                "question": "Not only did he pass the exam, ___ he got the highest score.",
-                "options": ["and", "but also", "so", "or"],
+                "question": "If I ___ you, I would accept the offer.",
+                "options": ["am", "was", "were", "will be"],
+                "answer": 2,
+                "explanation": "仮定法過去では主語がIでもwereを使います。"
+            },
+            {
+                "question": "It is important that everyone ___ the rules.",
+                "options": ["follows", "follow", "followed", "following"],
                 "answer": 1,
-                "explanation": "not only... but alsoの構文です。"
-            },
-            {
-                "question": "Little ___ he know what was waiting for him.",
-                "options": ["did", "does", "was", "had"],
-                "answer": 0,
-                "explanation": "否定の副詞littleが文頭にくると倒置が起こります。"
-            },
-            {
-                "question": "I suggest that the meeting ___ postponed.",
-                "options": ["is", "be", "was", "were"],
-                "answer": 1,
-                "explanation": "提案のthat節では動詞の原形（仮定法現在）を使います。"
-            },
-            {
-                "question": "She acted as if she ___ nothing about it.",
-                "options": ["knows", "knew", "know", "known"],
-                "answer": 1,
-                "explanation": "as ifの後は仮定法過去を使います。"
+                "explanation": "重要性を表すthat節では動詞の原形を使います。"
             }
         ],
         "5": [
             {
-                "question": "So absorbed ___ in his work that he didn't notice me.",
-                "options": ["he was", "was he", "he is", "is he"],
+                "question": "If I ___ studied harder, I would have passed the exam.",
+                "options": ["have", "had", "has", "would have"],
                 "answer": 1,
-                "explanation": "soが文頭にくると倒置が起こります。"
+                "explanation": "仮定法過去完了の条件節では過去完了形を使います。"
             },
             {
-                "question": "I would sooner die ___ betray my friends.",
-                "options": ["than", "rather than", "instead of", "before"],
+                "question": "Not only ___ English, but he also speaks French.",
+                "options": ["he speaks", "does he speak", "he spoke", "did he speak"],
+                "answer": 1,
+                "explanation": "not onlyが文頭にくると倒置が起こります。"
+            },
+            {
+                "question": "I wish I ___ to the party last night.",
+                "options": ["went", "had gone", "have gone", "go"],
+                "answer": 1,
+                "explanation": "過去の後悔を表すI wishの後は過去完了形を使います。"
+            },
+            {
+                "question": "He speaks English as if he ___ a native speaker.",
+                "options": ["is", "was", "were", "has been"],
+                "answer": 2,
+                "explanation": "as ifの後の仮定法過去ではwereを使います。"
+            },
+            {
+                "question": "Without your help, I ___ completed the project.",
+                "options": ["couldn't have", "can't have", "wouldn't", "won't have"],
                 "answer": 0,
-                "explanation": "would sooner... thanは「...するより...したい」という意味です。"
-            },
-            {
-                "question": "Were it not for your help, I ___ succeeded.",
-                "options": ["would not have", "will not have", "had not", "did not"],
-                "answer": 0,
-                "explanation": "倒置した仮定法過去完了の構文です。"
-            },
-            {
-                "question": "Never before ___ such a beautiful sunset.",
-                "options": ["I have seen", "have I seen", "I saw", "did I see"],
-                "answer": 1,
-                "explanation": "否定語が文頭にくると倒置が起こります。"
-            },
-            {
-                "question": "It is high time we ___ serious about this problem.",
-                "options": ["get", "got", "are getting", "will get"],
-                "answer": 1,
-                "explanation": "It is high time + 仮定法過去の構文です。"
+                "explanation": "過去の仮定を表すcouldn't haveを使います。"
             }
         ]
     },
@@ -202,130 +202,130 @@ quiz_data = {
         ],
         "2": [
             {
-                "question": "「achieve」の意味は？",
-                "options": ["失敗する", "達成する", "始める", "終わる"],
+                "question": "「important」の意味は？",
+                "options": ["簡単な", "重要な", "楽しい", "難しい"],
                 "answer": 1,
-                "explanation": "achieveは「達成する」という意味です。"
+                "explanation": "importantは「重要な」という意味です。"
             },
             {
-                "question": "「environment」の意味は？",
-                "options": ["環境", "娯楽", "教育", "経済"],
-                "answer": 0,
-                "explanation": "environmentは「環境」という意味です。"
-            },
-            {
-                "question": "「frequently」の意味は？",
-                "options": ["めったに", "時々", "頻繁に", "決して"],
-                "answer": 2,
-                "explanation": "frequentlyは「頻繁に」という意味です。"
-            },
-            {
-                "question": "「ignore」の意味は？",
-                "options": ["注意する", "無視する", "理解する", "説明する"],
+                "question": "「different」の意味は？",
+                "options": ["同じ", "違う", "近い", "遠い"],
                 "answer": 1,
-                "explanation": "ignoreは「無視する」という意味です。"
+                "explanation": "differentは「違う」という意味です。"
             },
             {
-                "question": "「convenient」の意味は？",
-                "options": ["不便な", "便利な", "危険な", "安全な"],
+                "question": "「favorite」の意味は？",
+                "options": ["嫌いな", "お気に入りの", "普通の", "特別な"],
                 "answer": 1,
-                "explanation": "convenientは「便利な」という意味です。"
+                "explanation": "favoriteは「お気に入りの」という意味です。"
+            },
+            {
+                "question": "「expensive」の意味は？",
+                "options": ["安い", "高い", "古い", "新しい"],
+                "answer": 1,
+                "explanation": "expensiveは「高い」という意味です。"
+            },
+            {
+                "question": "「possible」の意味は？",
+                "options": ["不可能な", "可能な", "確実な", "危険な"],
+                "answer": 1,
+                "explanation": "possibleは「可能な」という意味です。"
             }
         ],
         "3": [
             {
-                "question": "「phenomena」の単数形は？",
-                "options": ["phenomena", "phenomenon", "phenomen", "phenomenas"],
+                "question": "「comfortable」の意味は？",
+                "options": ["不快な", "快適な", "忙しい", "静かな"],
                 "answer": 1,
-                "explanation": "phenomenaの単数形はphenomenonです。"
+                "explanation": "comfortableは「快適な」という意味です。"
             },
             {
-                "question": "「elaborate」の意味は？",
-                "options": ["簡単な", "詳細な", "短い", "普通の"],
+                "question": "「popular」の意味は？",
+                "options": ["人気のない", "人気のある", "古い", "新しい"],
                 "answer": 1,
-                "explanation": "elaborateは「詳細な、精巧な」という意味です。"
+                "explanation": "popularは「人気のある」という意味です。"
             },
             {
-                "question": "「reluctant」の意味は？",
-                "options": ["熱心な", "気が進まない", "興奮した", "満足した"],
+                "question": "「necessary」の意味は？",
+                "options": ["不要な", "必要な", "簡単な", "困難な"],
                 "answer": 1,
-                "explanation": "reluctantは「気が進まない、嫌がる」という意味です。"
+                "explanation": "necessaryは「必要な」という意味です。"
             },
             {
-                "question": "「deteriorate」の意味は？",
-                "options": ["改善する", "悪化する", "維持する", "開始する"],
+                "question": "「similar」の意味は？",
+                "options": ["違う", "似ている", "遠い", "近い"],
                 "answer": 1,
-                "explanation": "deteriorateは「悪化する、劣化する」という意味です。"
+                "explanation": "similarは「似ている」という意味です。"
             },
             {
-                "question": "「authentic」の意味は？",
-                "options": ["偽の", "本物の", "新しい", "古い"],
+                "question": "「discover」の意味は？",
+                "options": ["隠す", "発見する", "忘れる", "覚える"],
                 "answer": 1,
-                "explanation": "authenticは「本物の、真正な」という意味です。"
+                "explanation": "discoverは「発見する」という意味です。"
             }
         ],
         "4": [
             {
-                "question": "「ubiquitous」の意味は？",
-                "options": ["珍しい", "どこにでもある", "高価な", "複雑な"],
+                "question": "「abundant」の意味は？",
+                "options": ["不足した", "豊富な", "普通の", "少ない"],
                 "answer": 1,
-                "explanation": "ubiquitousは「どこにでもある、遍在する」という意味です。"
+                "explanation": "abundantは「豊富な」という意味です。"
             },
             {
-                "question": "「meticulous」の意味は？",
-                "options": ["大雑把な", "細心な", "速い", "遅い"],
+                "question": "「significant」の意味は？",
+                "options": ["重要でない", "重要な", "小さな", "簡単な"],
                 "answer": 1,
-                "explanation": "meticulousは「細心な、綿密な」という意味です。"
+                "explanation": "significantは「重要な、意味のある」という意味です。"
             },
             {
-                "question": "「ephemeral」の意味は？",
-                "options": ["永続的な", "短命な", "大きな", "小さな"],
+                "question": "「contemporary」の意味は？",
+                "options": ["古い", "現代の", "未来の", "過去の"],
                 "answer": 1,
-                "explanation": "ephemeralは「短命な、はかない」という意味です。"
+                "explanation": "contemporaryは「現代の、同時代の」という意味です。"
             },
             {
-                "question": "「pragmatic」の意味は？",
-                "options": ["理想的な", "実用的な", "理論的な", "感情的な"],
+                "question": "「inevitable」の意味は？",
+                "options": ["避けられる", "避けられない", "可能な", "不可能な"],
                 "answer": 1,
-                "explanation": "pragmaticは「実用的な、実際的な」という意味です。"
+                "explanation": "inevitableは「避けられない」という意味です。"
             },
             {
-                "question": "「indigenous」の意味は？",
-                "options": ["外来の", "土着の", "現代の", "伝統的な"],
+                "question": "「comprehensive」の意味は？",
+                "options": ["部分的な", "包括的な", "狭い", "限定的な"],
                 "answer": 1,
-                "explanation": "indigenousは「土着の、固有の」という意味です。"
+                "explanation": "comprehensiveは「包括的な、総合的な」という意味です。"
             }
         ],
         "5": [
             {
-                "question": "「perspicacious」の意味は？",
-                "options": ["鈍い", "洞察力のある", "優しい", "厳しい"],
+                "question": "「sophisticated」の意味は？",
+                "options": ["単純な", "洗練された", "古い", "新しい"],
                 "answer": 1,
-                "explanation": "perspicaciousは「洞察力のある、鋭い」という意味です。"
+                "explanation": "sophisticatedは「洗練された、高度な」という意味です。"
             },
             {
-                "question": "「magnanimous」の意味は？",
-                "options": ["けちな", "寛大な", "怒りっぽい", "悲しい"],
+                "question": "「arbitrary」の意味は？",
+                "options": ["規則的な", "恣意的な", "論理的な", "合理的な"],
                 "answer": 1,
-                "explanation": "magnanimousは「寛大な、度量の大きい」という意味です。"
+                "explanation": "arbitraryは「恣意的な、独断的な」という意味です。"
             },
             {
-                "question": "「surreptitious」の意味は？",
-                "options": ["公然の", "秘密の", "明るい", "暗い"],
+                "question": "「redundant」の意味は？",
+                "options": ["必要な", "余分な", "不足した", "適切な"],
                 "answer": 1,
-                "explanation": "surreptitiousは「秘密の、こっそりした」という意味です。"
+                "explanation": "redundantは「余分な、冗長な」という意味です。"
             },
             {
-                "question": "「vituperative」の意味は？",
-                "options": ["賞賛の", "非難の", "中立の", "疑問の"],
+                "question": "「ambiguous」の意味は？",
+                "options": ["明確な", "曖昧な", "正確な", "具体的な"],
                 "answer": 1,
-                "explanation": "vituperativeは「非難の、痛烈な批判の」という意味です。"
+                "explanation": "ambiguousは「曖昧な、多義的な」という意味です。"
             },
             {
-                "question": "「obsequious」の意味は？",
-                "options": ["反抗的な", "へつらう", "独立した", "協力的な"],
+                "question": "「presumptuous」の意味は？",
+                "options": ["謙虚な", "厚かましい", "丁寧な", "親切な"],
                 "answer": 1,
-                "explanation": "obsequiousは「へつらう、卑屈な」という意味です。"
+                "explanation": "presumptuousは「厚かましい、生意気な」という意味です。"
             }
         ]
     },
@@ -364,6 +364,38 @@ quiz_data = {
         ],
         "2": [
             {
+                "question": "「20」を英語で何と言いますか？",
+                "options": ["twelve", "twenty", "thirty", "forty"],
+                "answer": 1,
+                "explanation": "20は英語でtwentyです。"
+            },
+            {
+                "question": "「2番目」を英語で何と言いますか？",
+                "options": ["two", "second", "twice", "double"],
+                "answer": 1,
+                "explanation": "2番目は英語でsecondです。"
+            },
+            {
+                "question": "「half」の意味は？",
+                "options": ["全部", "半分", "4分の1", "3分の1"],
+                "answer": 1,
+                "explanation": "halfは「半分」という意味です。"
+            },
+            {
+                "question": "「12」を英語で何と言いますか？",
+                "options": ["ten", "eleven", "twelve", "thirteen"],
+                "answer": 2,
+                "explanation": "12は英語でtwelveです。"
+            },
+            {
+                "question": "「90」を英語で何と言いますか？",
+                "options": ["nineteen", "ninety", "nine hundred", "nine thousand"],
+                "answer": 1,
+                "explanation": "90は英語でninetyです。"
+            }
+        ],
+        "3": [
+            {
                 "question": "「0.5」を英語で何と言いますか？",
                 "options": ["zero point five", "half", "one half", "all correct"],
                 "answer": 3,
@@ -382,57 +414,51 @@ quiz_data = {
                 "explanation": "21番目は「twenty-first」です。"
             },
             {
-                "question": "「1,000,000」を英語で何と言いますか？",
-                "options": ["one thousand", "ten thousand", "one hundred thousand", "one million"],
-                "answer": 3,
-                "explanation": "1,000,000は「one million」です。"
-            },
-            {
                 "question": "「double」の意味は？",
                 "options": ["半分", "2倍", "3倍", "4倍"],
                 "answer": 1,
                 "explanation": "doubleは「2倍」という意味です。"
-            }
-        ],
-        "3": [
+            },
             {
                 "question": "「dozen」の意味は？",
                 "options": ["10個", "12個", "20個", "100個"],
                 "answer": 1,
                 "explanation": "dozenは「12個、1ダース」という意味です。"
-            },
-            {
-                "question": "「5.25」を英語で何と言いますか？",
-                "options": ["five point twenty-five", "five and quarter", "five point two five", "all correct"],
-                "answer": 3,
-                "explanation": "5.25はすべての表現が正しいです。"
-            },
-            {
-                "question": "「百分率」を英語で何と言いますか？",
-                "options": ["percentage", "fraction", "decimal", "ratio"],
-                "answer": 0,
-                "explanation": "百分率は「percentage」です。"
-            },
-            {
-                "question": "「負の数」を英語で何と言いますか？",
-                "options": ["minus number", "negative number", "bad number", "down number"],
-                "answer": 1,
-                "explanation": "負の数は「negative number」です。"
-            },
-            {
-                "question": "「平方根」を英語で何と言いますか？",
-                "options": ["square root", "square number", "root square", "number square"],
-                "answer": 0,
-                "explanation": "平方根は「square root」です。"
             }
         ],
         "4": [
             {
-                "question": "「exponential」の意味は？",
-                "options": ["指数の", "対数の", "平方の", "立方の"],
-                "answer": 0,
-                "explanation": "exponentialは「指数の」という意味です。"
+                "question": "「percentage」の意味は？",
+                "options": ["分数", "百分率", "少数", "整数"],
+                "answer": 1,
+                "explanation": "percentageは「百分率、パーセント」という意味です。"
             },
+            {
+                "question": "「fraction」の意味は？",
+                "options": ["分数", "小数", "整数", "負数"],
+                "answer": 0,
+                "explanation": "fractionは「分数」という意味です。"
+            },
+            {
+                "question": "「multiply」の意味は？",
+                "options": ["足す", "引く", "掛ける", "割る"],
+                "answer": 2,
+                "explanation": "multiplyは「掛ける」という意味です。"
+            },
+            {
+                "question": "「diameter」の意味は？",
+                "options": ["半径", "直径", "円周", "面積"],
+                "answer": 1,
+                "explanation": "diameterは「直径」という意味です。"
+            },
+            {
+                "question": "「equation」の意味は？",
+                "options": ["関数", "方程式", "図形", "角度"],
+                "answer": 1,
+                "explanation": "equationは「方程式」という意味です。"
+            }
+        ],
+        "5": [
             {
                 "question": "「logarithm」の意味は？",
                 "options": ["指数", "対数", "分数", "小数"],
@@ -446,48 +472,22 @@ quiz_data = {
                 "explanation": "coefficientは「係数」という意味です。"
             },
             {
-                "question": "「asymptote」の意味は？",
-                "options": ["対称軸", "漸近線", "接線", "法線"],
+                "question": "「polynomial」の意味は？",
+                "options": ["一次式", "多項式", "指数式", "三角関数"],
                 "answer": 1,
-                "explanation": "asymptoteは「漸近線」という意味です。"
+                "explanation": "polynomialは「多項式」という意味です。"
             },
             {
                 "question": "「derivative」の意味は？",
                 "options": ["積分", "微分", "極限", "級数"],
                 "answer": 1,
                 "explanation": "derivativeは「微分」という意味です。"
-            }
-        ],
-        "5": [
-            {
-                "question": "「infinitesimal」の意味は？",
-                "options": ["無限大の", "極小の", "有限の", "整数の"],
-                "answer": 1,
-                "explanation": "infinitesimalは「極小の、無限小の」という意味です。"
             },
             {
-                "question": "「convergence」の意味は？",
-                "options": ["発散", "収束", "振動", "回転"],
+                "question": "「integral」の意味は？",
+                "options": ["微分", "積分", "極限", "関数"],
                 "answer": 1,
-                "explanation": "convergenceは「収束」という意味です。"
-            },
-            {
-                "question": "「stochastic」の意味は？",
-                "options": ["確定的な", "確率的な", "周期的な", "線形的な"],
-                "answer": 1,
-                "explanation": "stochasticは「確率的な」という意味です。"
-            },
-            {
-                "question": "「permutation」の意味は？",
-                "options": ["組み合わせ", "順列", "確率", "統計"],
-                "answer": 1,
-                "explanation": "permutationは「順列」という意味です。"
-            },
-            {
-                "question": "「eigenvalue」の意味は？",
-                "options": ["固有値", "特異値", "最大値", "最小値"],
-                "answer": 0,
-                "explanation": "eigenvalueは「固有値」という意味です。"
+                "explanation": "integralは「積分」という意味です。"
             }
         ]
     }
