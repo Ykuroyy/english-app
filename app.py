@@ -15,34 +15,34 @@ quiz_data = {
             },
             {
                 "question": "She ___ a student.",
-                "options": ["am", "is", "are", "be"],
-                "answer": 1,
+                "options": ["am", "are", "be", "is"],
+                "answer": 3,
                 "explanation": "三人称単数（he, she, it）の場合はisを使います。"
             },
             {
                 "question": "They ___ playing soccer now.",
-                "options": ["is", "am", "are", "was"],
-                "answer": 2,
+                "options": ["is", "are", "am", "was"],
+                "answer": 1,
                 "explanation": "複数形の主語にはareを使います。"
             },
             {
                 "question": "I ___ my homework yesterday.",
-                "options": ["do", "did", "does", "doing"],
-                "answer": 1,
+                "options": ["do", "does", "doing", "did"],
+                "answer": 3,
                 "explanation": "yesterdayは過去を表すので、過去形didを使います。"
             },
             {
                 "question": "He ___ speak English very well.",
-                "options": ["can", "cans", "could to", "can to"],
-                "answer": 0,
+                "options": ["cans", "could to", "can", "can to"],
+                "answer": 2,
                 "explanation": "助動詞canの後は動詞の原形が続きます。"
             }
         ],
         "2": [
             {
                 "question": "I ___ playing tennis for three hours.",
-                "options": ["am", "have been", "was", "will be"],
-                "answer": 1,
+                "options": ["am", "was", "have been", "will be"],
+                "answer": 2,
                 "explanation": "「〜時間ずっと」は現在完了進行形を使います。"
             },
             {
@@ -171,26 +171,26 @@ quiz_data = {
         "1": [
             {
                 "question": "「図書館」を英語で何と言いますか？",
-                "options": ["library", "book store", "school", "museum"],
-                "answer": 0,
+                "options": ["book store", "school", "museum", "library"],
+                "answer": 3,
                 "explanation": "図書館は英語でlibraryです。"
             },
             {
                 "question": "「beautiful」の意味は？",
-                "options": ["醜い", "美しい", "大きい", "小さい"],
-                "answer": 1,
+                "options": ["美しい", "醜い", "大きい", "小さい"],
+                "answer": 0,
                 "explanation": "beautifulは「美しい」という意味です。"
             },
             {
                 "question": "「朝食」を英語で何と言いますか？",
-                "options": ["lunch", "dinner", "breakfast", "supper"],
-                "answer": 2,
+                "options": ["lunch", "breakfast", "dinner", "supper"],
+                "answer": 1,
                 "explanation": "朝食は英語でbreakfastです。"
             },
             {
                 "question": "「happy」の反対語は？",
-                "options": ["sad", "angry", "excited", "tired"],
-                "answer": 0,
+                "options": ["angry", "excited", "sad", "tired"],
+                "answer": 2,
                 "explanation": "happyの反対語はsad（悲しい）です。"
             },
             {
@@ -203,14 +203,14 @@ quiz_data = {
         "2": [
             {
                 "question": "「important」の意味は？",
-                "options": ["簡単な", "重要な", "楽しい", "難しい"],
-                "answer": 1,
+                "options": ["重要な", "簡単な", "楽しい", "難しい"],
+                "answer": 0,
                 "explanation": "importantは「重要な」という意味です。"
             },
             {
                 "question": "「different」の意味は？",
-                "options": ["同じ", "違う", "近い", "遠い"],
-                "answer": 1,
+                "options": ["同じ", "近い", "違う", "遠い"],
+                "answer": 2,
                 "explanation": "differentは「違う」という意味です。"
             },
             {
@@ -221,34 +221,34 @@ quiz_data = {
             },
             {
                 "question": "「expensive」の意味は？",
-                "options": ["安い", "高い", "古い", "新しい"],
-                "answer": 1,
+                "options": ["安い", "古い", "新しい", "高い"],
+                "answer": 3,
                 "explanation": "expensiveは「高い」という意味です。"
             },
             {
                 "question": "「possible」の意味は？",
-                "options": ["不可能な", "可能な", "確実な", "危険な"],
-                "answer": 1,
+                "options": ["可能な", "不可能な", "確実な", "危険な"],
+                "answer": 0,
                 "explanation": "possibleは「可能な」という意味です。"
             }
         ],
         "3": [
             {
                 "question": "「comfortable」の意味は？",
-                "options": ["不快な", "快適な", "忙しい", "静かな"],
-                "answer": 1,
+                "options": ["不快な", "忙しい", "快適な", "静かな"],
+                "answer": 2,
                 "explanation": "comfortableは「快適な」という意味です。"
             },
             {
                 "question": "「popular」の意味は？",
-                "options": ["人気のない", "人気のある", "古い", "新しい"],
-                "answer": 1,
+                "options": ["人気のある", "人気のない", "古い", "新しい"],
+                "answer": 0,
                 "explanation": "popularは「人気のある」という意味です。"
             },
             {
                 "question": "「necessary」の意味は？",
-                "options": ["不要な", "必要な", "簡単な", "困難な"],
-                "answer": 1,
+                "options": ["不要な", "簡単な", "困難な", "必要な"],
+                "answer": 3,
                 "explanation": "necessaryは「必要な」という意味です。"
             },
             {
@@ -259,28 +259,28 @@ quiz_data = {
             },
             {
                 "question": "「discover」の意味は？",
-                "options": ["隠す", "発見する", "忘れる", "覚える"],
-                "answer": 1,
+                "options": ["隠す", "忘れる", "発見する", "覚える"],
+                "answer": 2,
                 "explanation": "discoverは「発見する」という意味です。"
             }
         ],
         "4": [
             {
                 "question": "「abundant」の意味は？",
-                "options": ["不足した", "豊富な", "普通の", "少ない"],
-                "answer": 1,
+                "options": ["不足した", "普通の", "少ない", "豊富な"],
+                "answer": 3,
                 "explanation": "abundantは「豊富な」という意味です。"
             },
             {
                 "question": "「significant」の意味は？",
-                "options": ["重要でない", "重要な", "小さな", "簡単な"],
-                "answer": 1,
+                "options": ["重要な", "重要でない", "小さな", "簡単な"],
+                "answer": 0,
                 "explanation": "significantは「重要な、意味のある」という意味です。"
             },
             {
                 "question": "「contemporary」の意味は？",
-                "options": ["古い", "現代の", "未来の", "過去の"],
-                "answer": 1,
+                "options": ["古い", "未来の", "現代の", "過去の"],
+                "answer": 2,
                 "explanation": "contemporaryは「現代の、同時代の」という意味です。"
             },
             {
@@ -291,28 +291,28 @@ quiz_data = {
             },
             {
                 "question": "「comprehensive」の意味は？",
-                "options": ["部分的な", "包括的な", "狭い", "限定的な"],
-                "answer": 1,
+                "options": ["包括的な", "部分的な", "狭い", "限定的な"],
+                "answer": 0,
                 "explanation": "comprehensiveは「包括的な、総合的な」という意味です。"
             }
         ],
         "5": [
             {
                 "question": "「sophisticated」の意味は？",
-                "options": ["単純な", "洗練された", "古い", "新しい"],
-                "answer": 1,
+                "options": ["単純な", "古い", "洗練された", "新しい"],
+                "answer": 2,
                 "explanation": "sophisticatedは「洗練された、高度な」という意味です。"
             },
             {
                 "question": "「arbitrary」の意味は？",
-                "options": ["規則的な", "恣意的な", "論理的な", "合理的な"],
-                "answer": 1,
+                "options": ["恣意的な", "規則的な", "論理的な", "合理的な"],
+                "answer": 0,
                 "explanation": "arbitraryは「恣意的な、独断的な」という意味です。"
             },
             {
                 "question": "「redundant」の意味は？",
-                "options": ["必要な", "余分な", "不足した", "適切な"],
-                "answer": 1,
+                "options": ["必要な", "不足した", "適切な", "余分な"],
+                "answer": 3,
                 "explanation": "redundantは「余分な、冗長な」という意味です。"
             },
             {
@@ -323,8 +323,8 @@ quiz_data = {
             },
             {
                 "question": "「presumptuous」の意味は？",
-                "options": ["謙虚な", "厚かましい", "丁寧な", "親切な"],
-                "answer": 1,
+                "options": ["厚かましい", "謙虚な", "丁寧な", "親切な"],
+                "answer": 0,
                 "explanation": "presumptuousは「厚かましい、生意気な」という意味です。"
             }
         ]
@@ -333,64 +333,64 @@ quiz_data = {
         "1": [
             {
                 "question": "「15」を英語で何と言いますか？",
-                "options": ["thirteen", "fourteen", "fifteen", "sixteen"],
-                "answer": 2,
+                "options": ["thirteen", "fourteen", "sixteen", "fifteen"],
+                "answer": 3,
                 "explanation": "15は英語でfifteenです。"
             },
             {
                 "question": "「100」を英語で何と言いますか？",
-                "options": ["one hundred", "one thousand", "ten", "one hundread"],
-                "answer": 0,
+                "options": ["one thousand", "one hundred", "ten", "one hundread"],
+                "answer": 1,
                 "explanation": "100は英語でone hundredです。"
             },
             {
                 "question": "「3番目」を英語で何と言いますか？",
-                "options": ["three", "third", "thirth", "tree"],
-                "answer": 1,
+                "options": ["third", "three", "thirth", "tree"],
+                "answer": 0,
                 "explanation": "3番目は英語でthirdです。"
             },
             {
                 "question": "「50」を英語で何と言いますか？",
-                "options": ["fifteen", "fifty", "five", "fivety"],
-                "answer": 1,
+                "options": ["fifteen", "five", "fifty", "fivety"],
+                "answer": 2,
                 "explanation": "50は英語でfiftyです。"
             },
             {
                 "question": "「1,000」を英語で何と言いますか？",
-                "options": ["one hundred", "ten thousand", "one thousand", "one million"],
-                "answer": 2,
+                "options": ["one hundred", "one thousand", "ten thousand", "one million"],
+                "answer": 1,
                 "explanation": "1,000は英語でone thousandです。"
             }
         ],
         "2": [
             {
                 "question": "「20」を英語で何と言いますか？",
-                "options": ["twelve", "twenty", "thirty", "forty"],
-                "answer": 1,
+                "options": ["twenty", "twelve", "thirty", "forty"],
+                "answer": 0,
                 "explanation": "20は英語でtwentyです。"
             },
             {
                 "question": "「2番目」を英語で何と言いますか？",
-                "options": ["two", "second", "twice", "double"],
-                "answer": 1,
+                "options": ["two", "twice", "second", "double"],
+                "answer": 2,
                 "explanation": "2番目は英語でsecondです。"
             },
             {
                 "question": "「half」の意味は？",
-                "options": ["全部", "半分", "4分の1", "3分の1"],
-                "answer": 1,
+                "options": ["全部", "4分の1", "3分の1", "半分"],
+                "answer": 3,
                 "explanation": "halfは「半分」という意味です。"
             },
             {
                 "question": "「12」を英語で何と言いますか？",
-                "options": ["ten", "eleven", "twelve", "thirteen"],
-                "answer": 2,
+                "options": ["ten", "twelve", "eleven", "thirteen"],
+                "answer": 1,
                 "explanation": "12は英語でtwelveです。"
             },
             {
                 "question": "「90」を英語で何と言いますか？",
-                "options": ["nineteen", "ninety", "nine hundred", "nine thousand"],
-                "answer": 1,
+                "options": ["nineteen", "nine hundred", "ninety", "nine thousand"],
+                "answer": 2,
                 "explanation": "90は英語でninetyです。"
             }
         ],
@@ -403,14 +403,14 @@ quiz_data = {
             },
             {
                 "question": "「3/4」を英語で何と言いますか？",
-                "options": ["three four", "three fourths", "three of four", "third fourth"],
-                "answer": 1,
+                "options": ["three fourths", "three four", "three of four", "third fourth"],
+                "answer": 0,
                 "explanation": "3/4は「three fourths」または「three quarters」です。"
             },
             {
                 "question": "「21st」を英語で何と言いますか？",
-                "options": ["twenty-one", "twenty-first", "twenty-onest", "twenty-ones"],
-                "answer": 1,
+                "options": ["twenty-one", "twenty-onest", "twenty-first", "twenty-ones"],
+                "answer": 2,
                 "explanation": "21番目は「twenty-first」です。"
             },
             {
@@ -421,16 +421,16 @@ quiz_data = {
             },
             {
                 "question": "「dozen」の意味は？",
-                "options": ["10個", "12個", "20個", "100個"],
-                "answer": 1,
+                "options": ["12個", "10個", "20個", "100個"],
+                "answer": 0,
                 "explanation": "dozenは「12個、1ダース」という意味です。"
             }
         ],
         "4": [
             {
                 "question": "「percentage」の意味は？",
-                "options": ["分数", "百分率", "少数", "整数"],
-                "answer": 1,
+                "options": ["分数", "少数", "整数", "百分率"],
+                "answer": 3,
                 "explanation": "percentageは「百分率、パーセント」という意味です。"
             },
             {
@@ -441,40 +441,40 @@ quiz_data = {
             },
             {
                 "question": "「multiply」の意味は？",
-                "options": ["足す", "引く", "掛ける", "割る"],
-                "answer": 2,
+                "options": ["足す", "掛ける", "引く", "割る"],
+                "answer": 1,
                 "explanation": "multiplyは「掛ける」という意味です。"
             },
             {
                 "question": "「diameter」の意味は？",
-                "options": ["半径", "直径", "円周", "面積"],
-                "answer": 1,
+                "options": ["半径", "円周", "直径", "面積"],
+                "answer": 2,
                 "explanation": "diameterは「直径」という意味です。"
             },
             {
                 "question": "「equation」の意味は？",
-                "options": ["関数", "方程式", "図形", "角度"],
-                "answer": 1,
+                "options": ["方程式", "関数", "図形", "角度"],
+                "answer": 0,
                 "explanation": "equationは「方程式」という意味です。"
             }
         ],
         "5": [
             {
                 "question": "「logarithm」の意味は？",
-                "options": ["指数", "対数", "分数", "小数"],
-                "answer": 1,
+                "options": ["指数", "分数", "対数", "小数"],
+                "answer": 2,
                 "explanation": "logarithmは「対数」という意味です。"
             },
             {
                 "question": "「coefficient」の意味は？",
-                "options": ["変数", "係数", "定数", "関数"],
-                "answer": 1,
+                "options": ["係数", "変数", "定数", "関数"],
+                "answer": 0,
                 "explanation": "coefficientは「係数」という意味です。"
             },
             {
                 "question": "「polynomial」の意味は？",
-                "options": ["一次式", "多項式", "指数式", "三角関数"],
-                "answer": 1,
+                "options": ["一次式", "指数式", "三角関数", "多項式"],
+                "answer": 3,
                 "explanation": "polynomialは「多項式」という意味です。"
             },
             {
@@ -485,8 +485,8 @@ quiz_data = {
             },
             {
                 "question": "「integral」の意味は？",
-                "options": ["微分", "積分", "極限", "関数"],
-                "answer": 1,
+                "options": ["微分", "極限", "積分", "関数"],
+                "answer": 2,
                 "explanation": "integralは「積分」という意味です。"
             }
         ]
