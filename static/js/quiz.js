@@ -2,8 +2,10 @@ let currentQuiz = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let selectedCategory = '';
+let selectedLevel = '';
 
 const startScreen = document.getElementById('start-screen');
+const levelScreen = document.getElementById('level-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const resultScreen = document.getElementById('result-screen');
 const questionEl = document.getElementById('question');
@@ -20,11 +22,34 @@ const resultMessageEl = document.getElementById('result-message');
 document.querySelectorAll('.category-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
         selectedCategory = e.target.dataset.category;
+        showLevelSelection();
+    });
+});
+
+document.querySelectorAll('.level-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        selectedLevel = e.target.dataset.level;
         startQuiz();
     });
 });
 
+document.getElementById('back-to-category').addEventListener('click', () => {
+    showScreen('start');
+});
+
 document.getElementById('restart-btn').addEventListener('click', () => {
+    startQuiz();
+});
+
+document.getElementById('level-up-btn').addEventListener('click', () => {
+    const nextLevel = parseInt(selectedLevel) + 1;
+    if (nextLevel <= 5) {
+        selectedLevel = nextLevel.toString();
+        startQuiz();
+    }
+});
+
+document.getElementById('back-to-top-btn').addEventListener('click', () => {
     resetQuiz();
 });
 
@@ -37,9 +62,19 @@ nextBtn.addEventListener('click', () => {
     }
 });
 
+function showLevelSelection() {
+    const categoryNames = {
+        'grammar': '文法',
+        'vocabulary': '単語',
+        'numbers': '数字'
+    };
+    document.getElementById('level-title').textContent = `${categoryNames[selectedCategory]} - レベルを選んでください`;
+    showScreen('level');
+}
+
 async function startQuiz() {
     try {
-        const response = await fetch(`/api/quiz/${selectedCategory}`);
+        const response = await fetch(`/api/quiz/${selectedCategory}/${selectedLevel}`);
         currentQuiz = await response.json();
         
         if (currentQuiz.length === 0) {
@@ -47,6 +82,9 @@ async function startQuiz() {
             return;
         }
         
+        currentQuestionIndex = 0;
+        score = 0;
+        scoreEl.textContent = '0';
         totalQuestionsEl.textContent = currentQuiz.length;
         showScreen('quiz');
         showQuestion();
@@ -109,15 +147,24 @@ function showResults() {
     finalTotalEl.textContent = currentQuiz.length;
     
     const percentage = (score / currentQuiz.length) * 100;
+    const levelUpBtn = document.getElementById('level-up-btn');
     
     if (percentage === 100) {
         resultMessageEl.textContent = '完璧です！素晴らしい！';
+        if (parseInt(selectedLevel) < 5) {
+            levelUpBtn.style.display = 'inline-block';
+        } else {
+            levelUpBtn.style.display = 'none';
+        }
     } else if (percentage >= 80) {
         resultMessageEl.textContent = 'とても良くできました！';
+        levelUpBtn.style.display = 'none';
     } else if (percentage >= 60) {
         resultMessageEl.textContent = 'よくできました！もう少し頑張りましょう！';
+        levelUpBtn.style.display = 'none';
     } else {
         resultMessageEl.textContent = 'もう一度挑戦してみましょう！';
+        levelUpBtn.style.display = 'none';
     }
     
     showScreen('result');
@@ -139,6 +186,9 @@ function showScreen(screenName) {
     switch(screenName) {
         case 'start':
             startScreen.classList.add('active');
+            break;
+        case 'level':
+            levelScreen.classList.add('active');
             break;
         case 'quiz':
             quizScreen.classList.add('active');
